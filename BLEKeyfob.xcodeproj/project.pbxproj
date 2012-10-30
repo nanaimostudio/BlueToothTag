@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166C7925163F7657006BA467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166C7924163F7657006BA467 /* UIKit.framework */; };
+		166C7927163F7657006BA467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166C7926163F7657006BA467 /* Foundation.framework */; };
+		166C7929163F7657006BA467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166C7928163F7657006BA467 /* CoreGraphics.framework */; };
+		166C792F163F7657006BA467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166C792D163F7657006BA467 /* InfoPlist.strings */; };
+		166C7931163F7657006BA467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C7930163F7657006BA467 /* main.m */; };
+		166C7935163F7657006BA467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C7934163F7657006BA467 /* AppDelegate.m */; };
+		166C7937163F7657006BA467 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C7936163F7657006BA467 /* Default.png */; };
+		166C7939163F7657006BA467 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C7938163F7657006BA467 /* Default@2x.png */; };
+		166C793B163F7657006BA467 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C793A163F7657006BA467 /* Default-568h@2x.png */; };
+		166C793E163F7657006BA467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C793D163F7657006BA467 /* ViewController.m */; };
+		166C7941163F7657006BA467 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166C793F163F7657006BA467 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		166C7920163F7657006BA467 /* BLEKeyfob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEKeyfob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166C7924163F7657006BA467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		166C7926163F7657006BA467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		166C7928163F7657006BA467 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		166C792C163F7657006BA467 /* BLEKeyfob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEKeyfob-Info.plist"; sourceTree = "<group>"; };
+		166C792E163F7657006BA467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		166C7930163F7657006BA467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166C7932163F7657006BA467 /* BLEKeyfob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEKeyfob-Prefix.pch"; sourceTree = "<group>"; };
+		166C7933163F7657006BA467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166C7934163F7657006BA467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166C7936163F7657006BA467 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		166C7938163F7657006BA467 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		166C793A163F7657006BA467 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		166C793C163F7657006BA467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		166C793D163F7657006BA467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		166C7940163F7657006BA467 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166C791D163F7657006BA467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166C7925163F7657006BA467 /* UIKit.framework in Frameworks */,
+				166C7927163F7657006BA467 /* Foundation.framework in Frameworks */,
+				166C7929163F7657006BA467 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166C7915163F7657006BA467 = {
+			isa = PBXGroup;
+			children = (
+				166C792A163F7657006BA467 /* BLEKeyfob */,
+				166C7923163F7657006BA467 /* Frameworks */,
+				166C7921163F7657006BA467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166C7921163F7657006BA467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166C7920163F7657006BA467 /* BLEKeyfob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166C7923163F7657006BA467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166C7924163F7657006BA467 /* UIKit.framework */,
+				166C7926163F7657006BA467 /* Foundation.framework */,
+				166C7928163F7657006BA467 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		166C792A163F7657006BA467 /* BLEKeyfob */ = {
+			isa = PBXGroup;
+			children = (
+				166C7933163F7657006BA467 /* AppDelegate.h */,
+				166C7934163F7657006BA467 /* AppDelegate.m */,
+				166C793C163F7657006BA467 /* ViewController.h */,
+				166C793D163F7657006BA467 /* ViewController.m */,
+				166C793F163F7657006BA467 /* ViewController.xib */,
+				166C792B163F7657006BA467 /* Supporting Files */,
+			);
+			path = BLEKeyfob;
+			sourceTree = "<group>";
+		};
+		166C792B163F7657006BA467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166C792C163F7657006BA467 /* BLEKeyfob-Info.plist */,
+				166C792D163F7657006BA467 /* InfoPlist.strings */,
+				166C7930163F7657006BA467 /* main.m */,
+				166C7932163F7657006BA467 /* BLEKeyfob-Prefix.pch */,
+				166C7936163F7657006BA467 /* Default.png */,
+				166C7938163F7657006BA467 /* Default@2x.png */,
+				166C793A163F7657006BA467 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166C791F163F7657006BA467 /* BLEKeyfob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166C7944163F7657006BA467 /* Build configuration list for PBXNativeTarget "BLEKeyfob" */;
+			buildPhases = (
+				166C791C163F7657006BA467 /* Sources */,
+				166C791D163F7657006BA467 /* Frameworks */,
+				166C791E163F7657006BA467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEKeyfob;
+			productName = BLEKeyfob;
+			productReference = 166C7920163F7657006BA467 /* BLEKeyfob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166C7917163F7657006BA467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = zeng;
+			};
+			buildConfigurationList = 166C791A163F7657006BA467 /* Build configuration list for PBXProject "BLEKeyfob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 166C7915163F7657006BA467;
+			productRefGroup = 166C7921163F7657006BA467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166C791F163F7657006BA467 /* BLEKeyfob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166C791E163F7657006BA467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166C792F163F7657006BA467 /* InfoPlist.strings in Resources */,
+				166C7937163F7657006BA467 /* Default.png in Resources */,
+				166C7939163F7657006BA467 /* Default@2x.png in Resources */,
+				166C793B163F7657006BA467 /* Default-568h@2x.png in Resources */,
+				166C7941163F7657006BA467 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166C791C163F7657006BA467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166C7931163F7657006BA467 /* main.m in Sources */,
+				166C7935163F7657006BA467 /* AppDelegate.m in Sources */,
+				166C793E163F7657006BA467 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		166C792D163F7657006BA467 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166C792E163F7657006BA467 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		166C793F163F7657006BA467 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166C7940163F7657006BA467 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166C7942163F7657006BA467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		166C7943163F7657006BA467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166C7945163F7657006BA467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEKeyfob/BLEKeyfob-Prefix.pch";
+				INFOPLIST_FILE = "BLEKeyfob/BLEKeyfob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		166C7946163F7657006BA467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEKeyfob/BLEKeyfob-Prefix.pch";
+				INFOPLIST_FILE = "BLEKeyfob/BLEKeyfob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166C791A163F7657006BA467 /* Build configuration list for PBXProject "BLEKeyfob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166C7942163F7657006BA467 /* Debug */,
+				166C7943163F7657006BA467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166C7944163F7657006BA467 /* Build configuration list for PBXNativeTarget "BLEKeyfob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166C7945163F7657006BA467 /* Debug */,
+				166C7946163F7657006BA467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166C7917163F7657006BA467 /* Project object */;
+}
