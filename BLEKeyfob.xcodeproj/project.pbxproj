@@ -18,6 +18,11 @@
 		166C793B163F7657006BA467 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 166C793A163F7657006BA467 /* Default-568h@2x.png */; };
 		166C793E163F7657006BA467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C793D163F7657006BA467 /* ViewController.m */; };
 		166C7941163F7657006BA467 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166C793F163F7657006BA467 /* ViewController.xib */; };
+		166DEFC016485FDD00DD76B4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166DEFBE16485FDD00DD76B4 /* TableViewController.m */; };
+		166DEFC116485FDD00DD76B4 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166DEFBF16485FDD00DD76B4 /* TableViewController.xib */; };
+		1689EA6D163F7A69006EA2B7 /* halloween_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1689EA6C163F7A69006EA2B7 /* halloween_theme.mp3 */; };
+		1689EA75163F7C0F006EA2B7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689EA74163F7C0F006EA2B7 /* CoreBluetooth.framework */; };
+		1689EA971640765F006EA2B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1689EA961640765F006EA2B7 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		166C793C163F7657006BA467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		166C793D163F7657006BA467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		166C7940163F7657006BA467 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		166DEFBD16485FDD00DD76B4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		166DEFBE16485FDD00DD76B4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		166DEFBF16485FDD00DD76B4 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		1689EA6C163F7A69006EA2B7 /* halloween_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = halloween_theme.mp3; sourceTree = "<group>"; };
+		1689EA73163F7B4E006EA2B7 /* TIBLECBKeyfobDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLECBKeyfobDefines.h; sourceTree = "<group>"; };
+		1689EA74163F7C0F006EA2B7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1689EA961640765F006EA2B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1689EA971640765F006EA2B7 /* AVFoundation.framework in Frameworks */,
+				1689EA75163F7C0F006EA2B7 /* CoreBluetooth.framework in Frameworks */,
 				166C7925163F7657006BA467 /* UIKit.framework in Frameworks */,
 				166C7927163F7657006BA467 /* Foundation.framework in Frameworks */,
 				166C7929163F7657006BA467 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +70,8 @@
 		166C7915163F7657006BA467 = {
 			isa = PBXGroup;
 			children = (
+				1689EA73163F7B4E006EA2B7 /* TIBLECBKeyfobDefines.h */,
+				1689EA6C163F7A69006EA2B7 /* halloween_theme.mp3 */,
 				166C792A163F7657006BA467 /* BLEKeyfob */,
 				166C7923163F7657006BA467 /* Frameworks */,
 				166C7921163F7657006BA467 /* Products */,
@@ -73,6 +89,8 @@
 		166C7923163F7657006BA467 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1689EA961640765F006EA2B7 /* AVFoundation.framework */,
+				1689EA74163F7C0F006EA2B7 /* CoreBluetooth.framework */,
 				166C7924163F7657006BA467 /* UIKit.framework */,
 				166C7926163F7657006BA467 /* Foundation.framework */,
 				166C7928163F7657006BA467 /* CoreGraphics.framework */,
@@ -89,6 +107,9 @@
 				166C793D163F7657006BA467 /* ViewController.m */,
 				166C793F163F7657006BA467 /* ViewController.xib */,
 				166C792B163F7657006BA467 /* Supporting Files */,
+				166DEFBD16485FDD00DD76B4 /* TableViewController.h */,
+				166DEFBE16485FDD00DD76B4 /* TableViewController.m */,
+				166DEFBF16485FDD00DD76B4 /* TableViewController.xib */,
 			);
 			path = BLEKeyfob;
 			sourceTree = "<group>";
@@ -163,6 +184,8 @@
 				166C7939163F7657006BA467 /* Default@2x.png in Resources */,
 				166C793B163F7657006BA467 /* Default-568h@2x.png in Resources */,
 				166C7941163F7657006BA467 /* ViewController.xib in Resources */,
+				1689EA6D163F7A69006EA2B7 /* halloween_theme.mp3 in Resources */,
+				166DEFC116485FDD00DD76B4 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +199,7 @@
 				166C7931163F7657006BA467 /* main.m in Sources */,
 				166C7935163F7657006BA467 /* AppDelegate.m in Sources */,
 				166C793E163F7657006BA467 /* ViewController.m in Sources */,
+				166DEFC016485FDD00DD76B4 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +316,7 @@
 				166C7946163F7657006BA467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
